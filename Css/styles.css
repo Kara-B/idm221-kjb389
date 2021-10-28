@@ -12,5 +12,9 @@ h1 {
 h2 {
   font-style: italic;
 }
-
-
+nav {
+  text-align: center;
+}
+.about_me_photo {
+  border-image: round;
+}
