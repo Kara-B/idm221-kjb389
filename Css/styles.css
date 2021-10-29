@@ -1,6 +1,4 @@
-.container {
-  background-color: lemonchiffon;
-}
+
 .nav_header {
   text-align: center;
   font-size: 1em;
@@ -12,9 +10,19 @@ h1 {
 h2 {
   font-style: italic;
 }
+.navigation {
+ margin-bottom: 10%;
+ 
+}
 nav {
   text-align: center;
 }
-.about_me_photo {
-  border-image: round;
+.AboutMePhoto
+{
+  width: 150px; /* width of container */
+  height: 170px; /* height of container */
+  object-fit: cover;
+  border-radius: 40%;
+  float:right;
+  margin-top: -5%;
 }
