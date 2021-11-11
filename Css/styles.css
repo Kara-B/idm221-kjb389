@@ -1,22 +1,55 @@
-
+body{
+  margin:0;
+}
 .nav_header {
+  font-size: 1rem;
+  background-color: #4A52E0;
+  line-height: 2rem;
+  display: flex;
+  margin: 0 ;
+  padding: 0 0 0 1rem ;
+}
+.nav_header a {
+text-decoration: none;
+color: #f1f4ff;
+}
+
+/* navigation */
+
+div.navigation {
+    position: sticky;
+    top: 0 ;
+  margin: .5rem auto 1rem ;
+}
+
+.navigation ul {
+	list-style: none;
+	/* margin: 0; */
+	padding: 0;
+	margin: 0 0 b 1.5rem;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li a {
+  background-color: #e5e5e5;
+  	border-radius: 1rem;
+  color: #666;
+	font-size: .9rem;
+  display: block;
+  padding: .5rem .75rem;
   text-align: center;
-  font-size: 1em;
-  background-color: lavender;
+	text-decoration: none;	
 }
-h1 {
-  text-decoration-line: underline;
+
+.navigation li a:hover {
+	background-color:  #3062be;
+	color: #e5e5e5;
 }
-h2 {
-  font-style: italic;
-}
-.navigation {
- margin-bottom: 10%;
- 
-}
-nav {
-  text-align: center;
-}
+
+/* Other */
 .AboutMePhoto
 {
   width: 150px; /* width of container */
@@ -24,5 +57,9 @@ nav {
   object-fit: cover;
   border-radius: 40%;
   float:right;
-  margin-top: -5%;
+  margin-top: -2%;
+}
+footer {
+  background-color: #45A7F7;
+  display: flex ;
 }
