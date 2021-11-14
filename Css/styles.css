@@ -2,9 +2,12 @@
 	font-family: 'GlacialIndifference-Regular';
 	src: url(fonts/GlacialIndifference-Regular.woff2) ;
 }
+
 body {
   margin: 0rem;
+  background-color: rgb(207, 206, 248);
 }
+
 h2 {
   margin-left: .8rem ;
 }
@@ -59,9 +62,9 @@ div.navigation {
 }
 
 .navigation li a {
-  background-color: #e5e5e5;
+  background-color: #7a71fc;
   	border-radius: 1rem;
-  color: #666;
+  color: rgb(238, 238, 238);
 	font-size: .9rem;
   display: block;
   padding: .5rem .75rem;
@@ -72,6 +75,7 @@ div.navigation {
 .navigation li a:hover {
 	background-color:  #3062be;
 	color: #e5e5e5;
+  box-shadow: rgb(43, 2, 82) 0px 2px 3px;
 }
 
 /* About Specific Stylings */
