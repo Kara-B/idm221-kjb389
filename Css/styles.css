@@ -1,13 +1,34 @@
-body{
-  margin:0;
+@font-face {
+	font-family: 'GlacialIndifference-Regular';
+	src: url(fonts/GlacialIndifference-Regular.woff2) ;
 }
+body {
+  margin: 0rem;
+}
+h2 {
+  margin-left: .8rem ;
+}
+p {
+  font-size: 1rem;
+  margin-left: .8rem ;
+}
+h4 {
+  margin-right: 13rem;
+  display: block;
+  padding: .3rem 4rem;
+  background-color: rgb(119, 236, 240);
+  color: rgba(0, 1, 12, 0.986);
+  text-align: right;
+}
+
 .nav_header {
   font-size: 1rem;
   background-color: #4A52E0;
   line-height: 2rem;
   display: flex;
-  margin: 0 ;
+  width: auto ;
   padding: 0 0 0 1rem ;
+  margin: 0;
 }
 .nav_header a {
 text-decoration: none;
@@ -19,12 +40,16 @@ color: #f1f4ff;
 div.navigation {
     position: sticky;
     top: 0 ;
-  margin: .5rem auto 1rem ;
+    margin: .5rem .2rem .3rem .4rem;
+  
+  /*
+  padding: .5rem .2rem .3rem 1rem ;
+  display: flex;
+  background-color: beige;*/
 }
 
 .navigation ul {
 	list-style: none;
-	/* margin: 0; */
 	padding: 0;
 	margin: 0 0 b 1.5rem;
 }
@@ -49,7 +74,7 @@ div.navigation {
 	color: #e5e5e5;
 }
 
-/* Other */
+/* About Specific Stylings */
 .AboutMePhoto
 {
   width: 150px; /* width of container */
@@ -57,7 +82,38 @@ div.navigation {
   object-fit: cover;
   border-radius: 40%;
   float:right;
-  margin-top: -2%;
+  margin: auto .5rem ;
+  border-style: 3px solid #a200ff;
+}
+/* My Work Images */
+.workbox_wrapper {
+background-color: rgb(17, 74, 180);
+border-radius: 40% 0 0 40%;
+display: flex;
+margin: 1rem auto 1rem .5rem;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
+}
+.workbox_wrapper p {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 0 0 2rem; 
+  color: rgb(252, 252, 252);
+  background-color: rgb(91, 126, 201);
+  display: inline-block;
+  padding: 1rem 1rem 1rem 1rem;
+  max-width: 5rem;
+  min-width: 2rem;
+}
+.workicon {
+  margin: 1rem auto ;
+  display: inline-block;
+}
+.workbox_wrapper h2{
+  color: #e5e5e5;
+  text-align: right;
+  padding-left: .2rem;
+  margin: auto -1.3rem auto 0;
+  font-size: 1.2rem;
 }
 footer {
   background-color: #45A7F7;
