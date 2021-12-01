@@ -6,7 +6,7 @@
 
 body {
   margin: 0rem;
-  background-color: rgb(207, 206, 248);
+  background-color: #fff;
 }
 
 h2, h3 {
@@ -27,45 +27,40 @@ h4 {
 
 .nav_header {
   font-size: 1rem;
-  background-color: #4A52E0;
-  line-height: 2rem;
+  background-color: #dbac91;
   display: flex;
-  width: auto ;
   padding: 0 0 0 1rem ;
-  margin: 0;
+  max-height: 7.5rem;
 }
 .nav_header a {
 text-decoration: none;
 color: #f1f4ff;
 }
+.nav_header img {
+  width: 30%;
+  margin: auto;
+}
+.col {
+background-color: rgb(135, 135, 194);
+display: inline-block;
+margin: 0 rem;
+}
 
 /* navigation */
 
-div.navigation {
-    position: sticky;
-    top: 0 ;
-    margin: .5rem .2rem .3rem .4rem;
-  
-  /*
-  padding: .5rem .2rem .3rem 1rem ;
-  display: flex;
-  background-color: beige;*/
-}
 
 .navigation ul {
-	list-style: none;
+	list-style: none ;
 	padding: 0;
-	margin: 0 0 b 1.5rem;
+	margin: 0 0 1.5rem;
 }
 
 .navigation li {
 	display: inline-block;
 }
 
-.navigation li a {
-  background-color: #7a71fc;
-  	border-radius: 1rem;
-  color: rgb(238, 238, 238);
+.navigation li a { 
+  color: rgb(0, 0, 0);
 	font-size: .9rem;
   display: block;
   padding: .5rem .75rem;
@@ -85,17 +80,14 @@ div.navigation {
   width: 150px; /* width of container */
   height: 170px; /* height of container */
   object-fit: cover;
-  border-radius: 40%;
-  float:right;
   margin: auto .5rem ;
-  border-style: 3px solid #a200ff;
 }
 /* My Work Images */
 .workbox_wrapper {
-background-color: rgb(17, 74, 180);
-border-radius: 40% 0 0 40%;
+background-color: #a395b9;
 display: flex;
 margin: 1rem auto 1rem .5rem;
+padding: 0 0 0 .5rem;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
 }
 .workbox_wrapper p {
@@ -103,7 +95,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
   font-size: 1rem;
   margin: 0 0 0 2rem; 
   color: rgb(252, 252, 252);
-  background-color: rgb(91, 126, 201);
+  background-color: #219393;
   display: inline-block;
   padding: 1rem 1rem 1rem 1rem;
   max-width: 5rem;
@@ -114,15 +106,54 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
   display: inline-block;
 }
 .workbox_wrapper h2{
-  color: #e5e5e5;
+  color: #000000;
   text-align: right;
   padding-left: .2rem;
   margin: auto -1.3rem auto 0;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
+/* ------- */
+.card_wrapper {
+  box-shadow: -5px 5px 10px rgba(50, 50, 50, 1);
+  margin-bottom: 2rem;
+}
+
+.card {
+	width: 100%;
+	max-height: 15rem;
+	background-color:rgb(128, 185, 199);
+  display: inline-block;
+}
+.card__img {
+  padding: 1rem;
+}
+.card__img img {
+	width: 60%;
+  margin-top: -1rem;
+  margin-left: -1.75rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+.card__content {
+	padding: 1rem;
+} 
+
+.card__content p {
+	color: rgb(19, 18, 18);
+	font-size: 0.875rem;
+  margin: 1rem;
+}
+.card__content h2 {
+  margin: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
 footer {
   background-color: #001136;
-  display: flex ;
   color: #e8f6ff;
+  margin: auto;
+  padding: .5rem;
 }
