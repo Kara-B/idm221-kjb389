@@ -1,8 +1,15 @@
 @font-face {
-	font-family: 'GlacialIndifference-Regular';
-	src: url('../Fonts/GlacialIndifference-Regular.woff2') format('woff2'),
-		url('../Fonts/GlacialIndifference-Regular.woff')format('woff');
+  font-family: 'glacialindifferenceregular';
+  src: url('../Fonts/glacialindifference-regular-webfont.woff2') format('woff2'),
+       url('../Fonts/glacialindifference-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
+
+
+
 
 body {
   margin: 0rem;
@@ -11,6 +18,7 @@ body {
 
 h2, h3 {
   margin-left: .8rem ;
+
 }
 p {
   font-size: 1rem;
@@ -24,7 +32,7 @@ h4 {
   color: rgba(0, 1, 12, 0.986);
   text-align: right;
 }
-
+/* navigation */
 .nav_header {
   font-size: 1rem;
   background-color: #dbac91;
@@ -32,56 +40,52 @@ h4 {
   padding: 0 0 0 1rem ;
   max-height: 7.5rem;
 }
-.nav_header a {
-text-decoration: none;
-color: #f1f4ff;
-}
+
 .nav_header img {
   width: 30%;
   margin: auto;
 }
 .col {
 background-color: rgb(135, 135, 194);
-display: inline-block;
-margin: 0 rem;
+display: inline;
+overflow: auto;
 }
 
-/* navigation */
-
-
-.navigation ul {
+.nav_header ul {
 	list-style: none ;
 	padding: 0;
 	margin: 0 0 1.5rem;
 }
 
-.navigation li {
-	display: inline-block;
-}
-
-.navigation li a { 
+.nav_header li a { 
   color: rgb(0, 0, 0);
 	font-size: .9rem;
   display: block;
   padding: .5rem .75rem;
   text-align: center;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
-.navigation li a:hover {
+.nav_header li a:hover {
 	background-color:  #3062be;
 	color: #e5e5e5;
   box-shadow: rgb(43, 2, 82) 0px 2px 3px;
 }
 
 /* About Specific Stylings */
-.AboutMePhoto
+.AboutMeBanner
 {
-  width: 150px; /* width of container */
-  height: 170px; /* height of container */
-  object-fit: cover;
-  margin: auto .5rem ;
+  width: 100%; 
+  display: flex;
 }
+
+.hero h2 {
+ position: absolute; 
+margin: 20% 10% Auto ;
+color: rgb(0, 0, 0);
+}
+
+
 /* My Work Images */
 .workbox_wrapper {
 background-color: #a395b9;
