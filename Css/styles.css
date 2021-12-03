@@ -6,7 +6,13 @@
   font-style: normal;
 }
 
-
+@font-face {
+  font-family: 'GlacialIndifference-Bold';
+  src: url('../Fonts/GlacialIndifference-Bold.woff2') format('woff2'),
+       url('../Fonts/GlacialIndifference-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -14,10 +20,12 @@
 body {
   margin: 0rem;
   background-color: #fff;
+  font-family: 'glacialindifferenceregular';
 }
 
 h2, h3 {
   margin-left: .8rem ;
+  font-family: 'GlacialIndifference-Bold';
 
 }
 p {
