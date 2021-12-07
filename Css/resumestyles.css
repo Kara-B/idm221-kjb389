@@ -5,3 +5,14 @@
 	font-weight: normal;
 	font-style: normal;
 }
+main {
+	line-height: 1.9rem;
+}
+
+h3 {
+	color: rgb(255, 255, 255);
+	background-color: #886FB1;	
+	display:inline-flex;
+	margin: 0 0 0 0 ;
+	padding: .5rem 2rem;
+}
