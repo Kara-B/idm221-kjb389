@@ -7,8 +7,7 @@
 }
 
 main {
-	line-height: 1.9rem;
-	margin: auto 1rem;
+	line-height: 1.8rem;
 }
 
 h2 {
@@ -17,23 +16,47 @@ h2 {
 	display:inline-flex;
 	margin: .5rem 0 ;
 	padding: .5rem 2rem;
-
+	box-shadow: 0px 4px 4px 1px rgb(87, 87, 87);
+}
+h3 {
+	margin: 1rem ;
 }
 
 p{
 	font-size: 1rem;
+	stroke: 24;
 }
 
+
+/* Resume Divs  */
+.education {
+	background-color: rgb(190, 209, 218);
+}
+.skills {
+	background-color: thistle;
+}
+.projects {
+	background-color: rgb(151, 202, 224);
+}
+.coursework {
+	background-color: rgb(151, 224, 206);
+}
+.honors {
+	background-color: wheat;
+}
+.activities {
+	background-color: rgb(191, 198, 216);
+}
 .education img {
 	width: 50%;
 	float: left;
-	margin-right: 1rem;
+	margin: auto 1rem;
 }
 
 /* reference for grid setup: https://css-tricks.com/a-grid-of-logos-in-squares/ */
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(5rem, auto));
+	grid-template-columns: repeat(auto-fill, minmax(6rem, auto));
 	grid-gap: 1remrem;
   }
 div.grid {

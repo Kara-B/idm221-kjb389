@@ -110,36 +110,45 @@ color: rgb(226, 226, 226);
 
 /* My Work Images */
 .workbox_wrapper {
-background-color: #a395b9;
+background-color: #219393;
 display: flex;
 margin: 1rem auto 1rem .5rem;
 padding: 0 0 0 .5rem;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
+border-radius: 1rem 0 0 1rem ;
 }
 .workbox_wrapper p {
   text-align: left;
   font-size: 1rem;
   margin: 0 0 0 2rem; 
-  color: rgb(252, 252, 252);
-  background-color: #219393;
+  color: rgb(0, 0, 0);
+  background-color: #cfe8e9;
   display: inline-block;
   padding: 1rem 1rem 1rem 1rem;
   max-width: 5rem;
   min-width: 2rem;
 }
 .workicon {
-  margin: 1rem auto ;
+  margin: .5rem auto ;
   display: inline-block;
 }
 .workbox_wrapper h2{
-  color: #000000;
+  color: #ffffff;
   text-align: right;
+  text-shadow: -.5px 2px 3px rgb(37, 37, 37);
   padding-left: .2rem;
   margin: auto -1.3rem auto 0;
   font-size: 1.2rem;
-  font-weight: bold;
 }
-
+ .workbox_wrapper1 {
+background-color: rgb(233, 101, 101);
+ }
+ .workbox_wrapper2 {
+  background-color: rgb(109, 22, 102);
+   }
+   .workbox_wrapper3 {
+    background-color: rgb(78, 169, 255);
+     }
 /* ------- */
 .card_wrapper {
   box-shadow: -5px 5px 10px rgba(50, 50, 50, 1);
@@ -161,6 +170,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 7px;
   margin-left: -1.75rem;
   margin-bottom: 1rem;
   float: left;
+  box-shadow: 2px 2px 4px #000;
 }
 
 .card__content {
