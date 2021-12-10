@@ -23,14 +23,18 @@ body {
   font-family: 'glacialindifferenceregular';
 }
 
+p {
+  font-size: 1.2rem;
+  margin-left: .8rem ;
+  line-height: 1.5rem;
+}
+
 h2 {
   margin-left: .8rem ;
   font-family: 'GlacialIndifference-Bold';
 }
-p {
-  font-size: 1rem;
-  margin-left: .8rem ;
-  line-height: 1.5rem;
+h3 {
+  text-align: center;
 }
 h4 {
   font-family: 'GlacialIndifference-Bold';
@@ -42,7 +46,13 @@ h4 {
   text-align: right;
   font-size: 1.285rem;
 }
+li {
+  line-height: 1.5rem;
+}
 
+a {
+  text-decoration: none;
+}
 
 
 /* navigation */
@@ -114,8 +124,6 @@ h4 {
   margin: 1rem;
 }
 .hobbies p {
-  overflow-y: auto;
-  position: relative;
   margin: auto .5rem;
   font-size: 1rem;
 }
@@ -131,7 +139,27 @@ h4 {
   float: left; 
   width: 40%;
 }
-
+.contact {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(6rem, auto));
+  padding: .5rem;
+  }
+.contact img {
+  width: 40%;
+  object-fit: cover;
+  padding: .5rem;
+}
+.contact p {
+  margin: auto 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #001136;
+}
+.contactdiv{
+  border:0;
+  height: 2px;
+  background: rgb(190, 190, 190);
+}
 
 /* My Work Images */
 .workbox_wrapper {
@@ -154,7 +182,7 @@ border-radius: 1rem 0 0 1rem ;
   min-width: 2rem;
 }
 .workicon {
-  margin: .5rem auto ;
+  margin: auto ;
   display: inline-block;
   
 }
@@ -162,20 +190,22 @@ border-radius: 1rem 0 0 1rem ;
   color: #ffffff;
   text-align: right;
   text-shadow: -.5px 2px 3px rgb(37, 37, 37);
-  padding-left: .2rem;
+  padding-left: 1rem;
   margin: auto -1.3rem auto 0;
   font-size: 1.2rem;
 }
  .workbox_wrapper1 {
-background-color: rgb(233, 101, 101);
+  background-color: rgb(233, 75, 75);
  }
- .workbox_wrapper2 {
+.workbox_wrapper2 {
   background-color: rgb(109, 22, 102);
-   }
-   .workbox_wrapper3 {
-    background-color: rgb(78, 169, 255);
-     }
-
+  }
+.workbox_wrapper3 {
+  background-color: rgb(78, 169, 255);
+  }
+  .workbox_wrapper4 {
+    background-color: rgb(219, 121, 30);
+    }
   
 /* Home Page Elements */
 .card_wrapper {
@@ -274,6 +304,14 @@ Masonry inspiration: https://codepen.io/iamsaief/pen/jObaoKo
    text-align: center; 
  }
 
+ .backbutton a {
+   display: inline-block;
+   text-decoration: none;
+   text-align: right;
+   color: #fff;
+   background-color: #219393;
+   padding: 1rem 2rem;
+ }
 
 footer {
   background-color: #001136;
